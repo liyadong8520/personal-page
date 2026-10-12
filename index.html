@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>我的个人主页</title>
-  <link rel="stylesheet" href="css/style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>lyd 的个人主页</title>
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <p>这是我的第一个网页。</p>
-  <script src="js/main.js"></script>
+    <header>
+        <h1>lyd</h1>
+        <nav>
+            <a href="#">关于我</a> |
+            <a href="#">我的技能</a> |
+            <a href="#">联系我</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>关于我</h2>
+            <p>我是lyd,一名从unity转向Web前端开发的开发者</p>
+        </section>
+        <section>
+            <h2>我的技能</h2>
+            <ul>
+                <li>C#</li>
+                <li>Unity</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ul>
+        </section>
+        <section>
+            <h2>我的项目</h2>
+            <article>
+              <h3>Todo List 待办事项</h3>
+              <p>这是我正在开发的前端练手项目，用来记录每天的学习任务。</p>
+            </article>
+          </section>
+    </main>
+    <footer>
+        <h2>联系我</h2>
+        <form>
+            <label for="name">姓名</label>
+            <input type="text" id="name" name="name">
+            <label for="email">邮箱：</label>
+            <input type="email" id="email" name="email">
+      
+            <button type="submit">提交</button>
+        </form>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
